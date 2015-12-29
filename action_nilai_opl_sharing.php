@@ -1,4 +1,5 @@
 <?php
+// why
 require("koneksi.php");
 session_start();	
 $nilai=$_POST['nilai'];
