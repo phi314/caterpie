@@ -26,24 +26,32 @@
       <file leaf-file-name="Similiatiry.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="0" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.52249134" vertical-offset="2398" max-vertical-offset="5382">
+            <state line="425" column="5" selection-start="13117" selection-end="13856" vertical-scroll-proportion="0.47445256" vertical-offset="7300" max-vertical-offset="8172">
               <folding>
-                <marker date="1451423801866" expanded="true" signature="1042:1071" placeholder="SELECT * FRO..reference_token..." />
-                <marker date="1451423801866" expanded="true" signature="1267:1300" placeholder="SELECT * FRO..reference_stop_word..." />
-                <marker date="1451423801866" expanded="true" signature="4202:4221" placeholder="..." />
-                <marker date="1451423801866" expanded="true" signature="4420:4439" placeholder="..." />
-                <marker date="1451423801866" expanded="true" signature="4531:4549" placeholder="..." />
-                <marker date="1451423801866" expanded="true" signature="4783:5027" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+                <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+                <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+                <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+                <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="koneksi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koneksi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="414">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -60,13 +68,14 @@
       <list>
         <option value="$PROJECT_DIR$/cek_input_opl.php" />
         <option value="$PROJECT_DIR$/koneksi.php" />
+        <option value="$PROJECT_DIR$/Classes/stemming.php" />
         <option value="$PROJECT_DIR$/Classes/Similiatiry.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
+    <option name="x" value="-1317" />
     <option name="y" value="24" />
     <option name="width" value="1317" />
     <option name="height" value="744" />
@@ -97,6 +106,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,7 +127,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,15 +160,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1317" y="24" width="1317" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26121163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2848151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -191,181 +200,387 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
+        <state line="307" column="14" selection-start="8786" selection-end="8786" vertical-scroll-proportion="0.0" vertical-offset="5526" max-vertical-offset="5706">
+          <folding>
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
+    <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392">
-          <folding />
+        <state line="307" column="14" selection-start="8786" selection-end="8786" vertical-scroll-proportion="0.0" vertical-offset="5526" max-vertical-offset="5706">
+          <folding>
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="19" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="5688">
+          <folding>
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="19" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="5688">
+          <folding>
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="0" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="5382">
+          <folding>
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koneksi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="13" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koneksi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cek_input_opl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="306">
           <folding>
-            <marker date="1451423801866" expanded="true" signature="1042:1071" placeholder="SELECT * FRO..reference_token..." />
-            <marker date="1451423801866" expanded="true" signature="1267:1300" placeholder="SELECT * FRO..reference_stop_word..." />
-            <marker date="1451423801866" expanded="true" signature="4202:4221" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4420:4439" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4531:4549" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4783:5027" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13392">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13392" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koneksi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cek_input_opl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="306">
           <folding>
-            <marker date="1451423801866" expanded="true" signature="1042:1071" placeholder="SELECT * FRO..reference_token..." />
-            <marker date="1451423801866" expanded="true" signature="1267:1300" placeholder="SELECT * FRO..reference_stop_word..." />
-            <marker date="1451423801866" expanded="true" signature="4202:4221" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4420:4439" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4531:4549" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4783:5027" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koneksi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cek_input_opl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="306">
           <folding>
-            <marker date="1451423801866" expanded="true" signature="1042:1071" placeholder="SELECT * FRO..reference_token..." />
-            <marker date="1451423801866" expanded="true" signature="1267:1300" placeholder="SELECT * FRO..reference_stop_word..." />
-            <marker date="1451423801866" expanded="true" signature="4202:4221" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4420:4439" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4531:4549" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4783:5027" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="13392" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cek_input_opl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="15" column="25" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cek_input_jabatan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <marker date="1444269888000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jabatan..." />
-            <marker date="1444269888000" expanded="true" signature="-1:-1" placeholder="select * fro..jabatan..." />
-            <marker date="1444269888000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koneksi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="414">
+        <state line="13" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/stemming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="180" selection-end="180" vertical-scroll-proportion="-6.9187818" vertical-offset="4179" max-vertical-offset="4770">
+          <folding>
+            <marker date="1452008913088" expanded="true" signature="-1:-1" placeholder="SELECT * fro..ref_dictionary..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="21" selection-start="4341" selection-end="4341" vertical-scroll-proportion="0.33333334" vertical-offset="3772" max-vertical-offset="4590">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Similiatiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.52249134" vertical-offset="2398" max-vertical-offset="5382">
+        <state line="425" column="5" selection-start="13117" selection-end="13856" vertical-scroll-proportion="0.47445256" vertical-offset="7300" max-vertical-offset="8172">
           <folding>
-            <marker date="1451423801866" expanded="true" signature="1042:1071" placeholder="SELECT * FRO..reference_token..." />
-            <marker date="1451423801866" expanded="true" signature="1267:1300" placeholder="SELECT * FRO..reference_stop_word..." />
-            <marker date="1451423801866" expanded="true" signature="4202:4221" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4420:4439" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4531:4549" placeholder="..." />
-            <marker date="1451423801866" expanded="true" signature="4783:5027" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="1066:1089" placeholder="SELECT * FRO..ref_token..." />
+            <marker date="1452049510520" expanded="true" signature="1285:1312" placeholder="SELECT * FRO..ref_stop_word..." />
+            <marker date="1452049510520" expanded="true" signature="6277:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6301:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6322:6459" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6461:6480" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6534:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6583:6667" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6679:6698" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6790:6808" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="6997:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7021:7636" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7607" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7042:7606" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7611:7628" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7660:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="7745:7784" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8938:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="8959:8988" placeholder="..." />
+            <marker date="1452049510520" expanded="true" signature="14150:14192" placeholder="SELECT * FRO..opl..." />
+            <marker date="1452049510520" expanded="true" signature="14302:14354" placeholder="SELECT * FRO..detail_opl..." />
           </folding>
         </state>
       </provider>
