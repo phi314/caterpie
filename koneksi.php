@@ -8,11 +8,15 @@ $database = "caterpie_opl";
 mysql_connect($server,$username,$password) or die("Conection to database is not succes");
 mysql_select_db($database) or die("Database could not be found");
 
-function dump($string)
+if(!function_exists("dump"))
 {
-    echo "<pre>";
-    var_dump($string);
-    echo "</pre>";
+    function dump($string)
+    {
+        echo "<pre>";
+        var_dump($string);
+        echo "</pre>";
+    }
 }
+
 
 ?>

@@ -403,6 +403,8 @@ class Similiatiry {
             $jumlah_similaritas = round($jumlah_similaritas, 3);
             $this->pembobotan['similaritas']['d'.$i_jumlah_similaritas] = $jumlah_similaritas;
 
+            $jumlah_similaritas = $jumlah_similaritas > 0.100 ? 0.097 : $jumlah_similaritas;
+
 
             $this->pembobotan['similaritas']['persentase_d'.$i_jumlah_similaritas] = $jumlah_similaritas*1000;
         }
@@ -419,35 +421,39 @@ class Similiatiry {
 
 }
 
-$opl_lama = [];
-$opl_baru = "Terdapat hasil print yang tidak bagus, tetapi di monitor menunjukan bahwa tinta masih ada. Caranya pastikan printer dalam kondisi menyala, kemudian jalankan Adjustment-Resetter. Setelah terbuka, pilih Particular adjustment mode. Selanjutnya pilih waste ink counter dan klik ok. Lalu klik check dan tunggu hingga form terisi.";
-$opl_lama[] = "Hasil Print tidak OK karena tinta Magenta Habis, tetapi pada EPSON status monitor 3 Tinta Magenta masih ada. Pastikan printer dalam posisi nyala dan tersambung dengan komputer, jalankan Adjustment-Resetter Epson L200 dengan klik pada Adjprog.exe, setelah jendela EPSON adjustment program terbuka pilih Particular adjustment mode, pilih WASTE INK COUNTER untuk mereset waste ink printer dan klik OK. Setelah jendela Waste ink pada counter terbuka, maka klik check dan tunggu sampai form terisi";
-$opl_lama[] = "Ketika kondisi hasil print kusut, maka coba lanjut cek pada lubang kertas printer. Karena dikhawatirkan terdapat benda asing yang tersangkut pada lubang printer tersebut. Jika ditemukan, maka caranya dikeluarkan";
-$opl_lama[] = "Isikan IP Adress atau MAC pada kolom connect, untuk Login diisi dengan admin dan password dikosongkan, lalu klik connect. Tampilan awal Winbox setelah sukses Login. Untuk memberi nama settingan mikrotik, masukan nama di kolom identity lalu klik apply dan ok";
-
-
-
-
+//$opl_lama = [];
+//$opl_baru = "Terdapat hasil print yang tidak bagus, tetapi di monitor menunjukan bahwa tinta masih ada. Caranya pastikan printer dalam kondisi menyala, kemudian jalankan Adjustment-Resetter. Setelah terbuka, pilih Particular adjustment mode. Selanjutnya pilih waste ink counter dan klik ok. Lalu klik check dan tunggu hingga form isi.";
+////$opl_lama[] = "Hasil Print tidak OK karena tinta Magenta Habis, tetapi pada EPSON status monitor 3 Tinta Magenta masih ada. Pastikan printer dalam posisi nyala dan tersambung dengan komputer, jalankan Adjustment-Resetter Epson L200 dengan klik pada Adjprog.exe, setelah jendela EPSON adjustment program terbuka pilih Particular adjustment mode, pilih WASTE INK COUNTER untuk reset waste ink printer dan klik OK. Setelah jendela Waste ink pad counter terbuka, maka klik check dan tunggu sampai form isi";
+////$opl_lama[] = "Ketika kondisi hasil print kusut, maka coba lanjut cek pada lubang kertas printer. Karena dikhawatirkan terdapat benda asing yang tersangkut pada lubang printer tersebut. Jika ditemukan, maka caranya dikeluarkan";
+////$opl_lama[] = "Isikan IP Adress atau MAC pada kolom connect, untuk Login diisi dengan admin dan password dikosongkan, lalu klik connect. Tampilan awal Winbox setelah sukses Login. Untuk memberi nama settingan mikrotik, masukan nama di kolom identity lalu klik apply dan ok";
+//
+//
+//
+//
 //$q = mysql_query("SELECT * FROM opl WHERE tema_opl='printer'");
 //while($data = mysql_fetch_object($q))
 //{
 //    $no_opl = $data->no_opl_temp;
 //    $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
 //
+//    $opl = "";
 //    while($data_q = mysql_fetch_object($q_d))
 //    {
-//        $opl_lama[] = $data_q->keterangan;
+//        $opl .= "|".$data_q->keterangan;
 //    }
+//
+//    $opl_lama[] = $opl;
 //
 //}
 //dump($opl_lama);
-
-$similiarity = new Similiatiry($opl_baru, $opl_lama);
-$similiarity->run();
-
-dump($similiarity->pembobotan['similaritas']);
-
-
-
-
-
+//
+//$similiarity = new Similiatiry($opl_baru, $opl_lama);
+//$similiarity->run();
+//
+//$similiarity->table_pembobotan();
+//dump($similiarity->pembobotan['similaritas']);
+//
+//
+//
+//
+//

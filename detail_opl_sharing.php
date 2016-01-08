@@ -162,7 +162,9 @@ echo"<tr>
 </tr>";	
 }
 
+$opl_baru = "";
 while ($row4=mysql_fetch_array($result4)) {
+    $opl_baru .= $row4['keterangan'];
 echo"<tr>
 	<td><font face='calibri'></font></td>
 	<td>&nbsp;&nbsp;</td>
@@ -175,6 +177,52 @@ echo"</table>
 }
 ?>
 <br/>
+</div>
+
+<div class="container">
+    <?php
+        $q = mysql_query("SELECT * FROM opl WHERE tema_opl='printer' AND no_opl_temp != '$no_opl_temp'");
+        $array_no_opl = [];
+        while($data = mysql_fetch_object($q))
+        {
+            $no_opl = $data->no_opl_temp;
+            $array_no_opl[] = $no_opl;
+            $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
+
+            $opl = "";
+            while($data_q = mysql_fetch_object($q_d))
+            {
+                $opl .= "|".$data_q->keterangan;
+            }
+
+            $opl_lama[] = $opl;
+
+        }
+
+        include "Classes/Similiatiry.php";
+        $similiarity = new Similiatiry($opl_baru, $opl_lama);
+        $similiarity->run();
+
+        $persentase = $similiarity->pembobotan['similaritas'];
+    ?>
+    <table>
+        <thead>
+        <tr>
+            <th>No. OPL</th>
+            <th>Opl Sebelumnya</th>
+            <th>Persentase Similaritas</th>
+        </tr>
+        </thead>
+        <tbody>
+            <?php foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
+            <tr>
+                <td><?php echo $array_no_opl[$key]; ?></td>
+                <td><?php echo $similiarity->tokenization($opl_lama_row); ?></td>
+                <td><?php echo $persentase['persentase_d'.$d]; ?>%</td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 </div>
 
 </div>

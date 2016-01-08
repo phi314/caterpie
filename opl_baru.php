@@ -22,11 +22,12 @@
 </head>
 <div class="container">
 <?php
-error_reporting(0);
+// error_reporting(0);
 session_start();
 include"koneksi.php";
 include"header.php";
-include"setting_level.php"
+include"setting_level.php";
+
 ?>
 <form action='cek_input_opl.php' method='POST' enctype='multipart/form-data'>
 <table align='center'> 
