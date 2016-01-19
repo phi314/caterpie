@@ -160,10 +160,69 @@ echo"</table>
 ?>
 <br/>
 </div>
-	</div>
-	<?php
-	include "footer.php";
+
+<div class="container">
+    <?php
+    $q = mysql_query("SELECT *, user FROM opl JOIN agreement_opl ON agreement_opl.id_agreement=opl.id_agreement WHERE tema_opl='printer' AND no_opl_temp != '$no_opl_temp'");
+    $array_no_opl = [];
+    while($data = mysql_fetch_object($q))
+    {
+        $q_user = mysql_query("SELECT * FROM user WHERE id='$data->user'");
+        $d_user = mysql_fetch_object($q_user);
+        $array = [];
+        $no_opl = $data->no_opl_temp;
+        $nama_user = $data->fullname;
+
+        $array = [
+            'no_opl' => $no_opl,
+            'nama'      => $nama_user
+        ];
+
+        $array_no_opl[] = $array;
+
+        $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
+
+        $opl = "";
+        while($data_q = mysql_fetch_object($q_d))
+        {
+            $opl .= "|".$data_q->keterangan;
+        }
+
+        $opl_lama[] = $opl;
+
+    }
+
+    include "Classes/Similiatiry.php";
+    $similiarity = new Similiatiry($opl_baru, $opl_lama);
+    $similiarity->run();
+
+    $persentase = $similiarity->pembobotan['similaritas'];
+    ?>
+    <table>
+        <thead>
+        <tr>
+            <th>No. OPL</th>
+            <th>Nama</th>
+            <th>Opl Sebelumnya</th>
+            <th>Persentase Similaritas</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
+            <tr>
+                <td><?php echo $array_no_opl[$key]['no_opl']; ?></td>
+                <td><?php echo $array_no_opl[$key]['nama']; ?></td>
+                <td><?php echo $similiarity->tokenization($opl_lama_row); ?></td>
+                <td><?php echo $persentase['persentase_d'.$d]; ?>%</td>
+            </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+
+</div>
+<?php
+include "footer.php";
 ?>
 </div>
 </html>
-</div>

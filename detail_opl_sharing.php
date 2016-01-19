@@ -2,7 +2,7 @@
 <html lang="en">
 <div class="container">
 <?php
-error_reporting(0);
+//error_reporting(0);
 session_start();
 include"koneksi.php";
 include"header.php";
@@ -57,7 +57,8 @@ $query = "SELECT * FROM opl
 	JOIN agreement_opl on (agreement_opl.id_agreement=opl.id_agreement)
 where opl.no_opl_temp='$no_opl_temp'";
 $result = mysql_query($query) or die ('error, query failed.'.mysql_error());
- 
+
+$tema_opl = '';
 while ($row=mysql_fetch_array($result)) {
 $pembuat=$row['user'];
 $pemeriksa=$row['pemeriksa'];
@@ -117,7 +118,9 @@ echo"
 		echo"$no_opl";
 	} else {
 	echo"$row[no_opl_temp]";
+        $tema_opl = $row['tema_opl'];
 	}
+
 	echo"</b></font></td>
 </tr>
 <tr>
@@ -181,12 +184,24 @@ echo"</table>
 
 <div class="container">
     <?php
-        $q = mysql_query("SELECT * FROM opl WHERE tema_opl='printer' AND no_opl_temp != '$no_opl_temp'");
+        $q = mysql_query("SELECT * FROM opl WHERE tema_opl='$tema_opl' AND no_opl_temp != '$no_opl_temp'");
         $array_no_opl = [];
         while($data = mysql_fetch_object($q))
         {
+            $q_agreement = mysql_query("SELECT * FROM agreement_opl WHERE id_agreement='$data->id_agreement'");
+            $d_agreement = mysql_fetch_object($q_agreement);
+            $q_user = mysql_query("SELECT * FROM user WHERE username='$d_agreement->user'");
+            $d_user = mysql_fetch_object($q_user);
+            $array = [];
             $no_opl = $data->no_opl_temp;
-            $array_no_opl[] = $no_opl;
+            $nama_user = $d_user->fullname;
+
+            $array = [
+                'no_opl'    => $no_opl,
+                'nama'      => $nama_user
+            ];
+
+            $array_no_opl[] = $array;
             $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
 
             $opl = "";
@@ -209,6 +224,7 @@ echo"</table>
         <thead>
         <tr>
             <th>No. OPL</th>
+            <th>Nama</th>
             <th>Opl Sebelumnya</th>
             <th>Persentase Similaritas</th>
         </tr>
@@ -216,7 +232,8 @@ echo"</table>
         <tbody>
             <?php foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
             <tr>
-                <td><?php echo $array_no_opl[$key]; ?></td>
+                <td><?php echo $array_no_opl[$key]['no_opl']; ?></td>
+                <td><?php echo $array_no_opl[$key]['nama']; ?></td>
                 <td><?php echo $similiarity->tokenization($opl_lama_row); ?></td>
                 <td><?php echo $persentase['persentase_d'.$d]; ?>%</td>
             </tr>
