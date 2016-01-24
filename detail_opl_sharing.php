@@ -180,8 +180,13 @@ echo"</table>
 }
 ?>
 <br/>
+
+    <a href="detail_opl_sharing.php?no_opl_temp=<?php echo $no_opl_temp; ?>&similiarity=true" class="btn btn-small btn-success">Hitung Similaritas</a>
+    <br>
+    <br>
 </div>
 
+<?php if(!empty($_GET['similiarity'])): ;?>
 <div class="container">
     <?php
         $q = mysql_query("SELECT * FROM opl WHERE tema_opl='$tema_opl' AND no_opl_temp != '$no_opl_temp'");
@@ -241,6 +246,8 @@ echo"</table>
         </tbody>
     </table>
 </div>
+
+<?php endif; ?>
 
 </div>
 	<?php

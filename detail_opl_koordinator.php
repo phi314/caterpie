@@ -159,8 +159,12 @@ echo"</table>
 }
 ?>
 <br/>
+    <a href="detail_opl_koordinator.php?no_opl_temp=<?php echo $no_opl_temp; ?>&similiarity=true" class="btn btn-small btn-success">Hitung Similaritas</a>
+    <br>
+    <br>
 </div>
 
+<?php if(!empty($_GET['similiarity'])): ?>
 <div class="container">
     <?php
     $q = mysql_query("SELECT *, user FROM opl JOIN agreement_opl ON agreement_opl.id_agreement=opl.id_agreement WHERE tema_opl='printer' AND no_opl_temp != '$no_opl_temp'");
@@ -219,6 +223,7 @@ echo"</table>
         </tbody>
     </table>
 </div>
+<?php endif; ?>
 
 </div>
 <?php
