@@ -181,75 +181,75 @@ echo"</table>
 ?>
 <br/>
 
-    <a href="detail_opl_sharing.php?no_opl_temp=<?php echo $no_opl_temp; ?>&similiarity=true" class="btn btn-small btn-success">Hitung Similaritas</a>
-    <br>
-    <br>
-</div>
-
-<?php if(!empty($_GET['similiarity'])): ;?>
-<div class="container">
-    <?php
-        $q = mysql_query("SELECT * FROM opl WHERE tema_opl='$tema_opl' AND no_opl_temp != '$no_opl_temp'");
-        $array_no_opl = [];
-        while($data = mysql_fetch_object($q))
-        {
-            $q_agreement = mysql_query("SELECT * FROM agreement_opl WHERE id_agreement='$data->id_agreement'");
-            $d_agreement = mysql_fetch_object($q_agreement);
-            $q_user = mysql_query("SELECT * FROM user WHERE username='$d_agreement->user'");
-            $d_user = mysql_fetch_object($q_user);
-            $array = [];
-            $no_opl = $data->no_opl_temp;
-            $nama_user = $d_user->fullname;
-
-            $array = [
-                'no_opl'    => $no_opl,
-                'nama'      => $nama_user
-            ];
-
-            $array_no_opl[] = $array;
-            $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
-
-            $opl = "";
-            while($data_q = mysql_fetch_object($q_d))
-            {
-                $opl .= "|".$data_q->keterangan;
-            }
-
-            $opl_lama[] = $opl;
-
-        }
-
-        include "Classes/Similiatiry.php";
-        $similiarity = new Similiatiry($opl_baru, $opl_lama);
-        $similiarity->run();
-
-        $persentase = $similiarity->pembobotan['similaritas'];
-    ?>
-    <table>
-        <thead>
-        <tr>
-            <th>No. OPL</th>
-            <th>Nama</th>
-            <th>Opl Sebelumnya</th>
-            <th>Persentase Similaritas</th>
-        </tr>
-        </thead>
-        <tbody>
-            <?php foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
-            <tr>
-                <td><?php echo $array_no_opl[$key]['no_opl']; ?></td>
-                <td><?php echo $array_no_opl[$key]['nama']; ?></td>
-                <td><?php echo $similiarity->tokenization($opl_lama_row); ?></td>
-                <td><?php echo $persentase['persentase_d'.$d]; ?>%</td>
-            </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
-</div>
-
-<?php endif; ?>
-
-</div>
+<!--    <a href="detail_opl_sharing.php?no_opl_temp=--><?php //echo $no_opl_temp; ?><!--&similiarity=true" class="btn btn-small btn-success">Hitung Similaritas</a>-->
+<!--    <br>-->
+<!--    <br>-->
+<!--</div>-->
+<!---->
+<?php //if(!empty($_GET['similiarity'])): ;?>
+<!--<div class="container">-->
+<!--    --><?php
+//        $q = mysql_query("SELECT * FROM opl WHERE tema_opl='$tema_opl' AND no_opl_temp != '$no_opl_temp'");
+//        $array_no_opl = [];
+//        while($data = mysql_fetch_object($q))
+//        {
+//            $q_agreement = mysql_query("SELECT * FROM agreement_opl WHERE id_agreement='$data->id_agreement'");
+//            $d_agreement = mysql_fetch_object($q_agreement);
+//            $q_user = mysql_query("SELECT * FROM user WHERE username='$d_agreement->user'");
+//            $d_user = mysql_fetch_object($q_user);
+//            $array = [];
+//            $no_opl = $data->no_opl_temp;
+//            $nama_user = $d_user->fullname;
+//
+//            $array = [
+//                'no_opl'    => $no_opl,
+//                'nama'      => $nama_user
+//            ];
+//
+//            $array_no_opl[] = $array;
+//            $q_d = mysql_query("SELECT * FROM detail_opl WHERE no_opl_temp='$no_opl'");
+//
+//            $opl = "";
+//            while($data_q = mysql_fetch_object($q_d))
+//            {
+//                $opl .= "|".$data_q->keterangan;
+//            }
+//
+//            $opl_lama[] = $opl;
+//
+//        }
+//
+//        include "Classes/Similiatiry.php";
+//        $similiarity = new Similiatiry($opl_baru, $opl_lama);
+//        $similiarity->run();
+//
+//        $persentase = $similiarity->pembobotan['similaritas'];
+//    ?>
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>No. OPL</th>-->
+<!--            <th>Nama</th>-->
+<!--            <th>Opl Sebelumnya</th>-->
+<!--            <th>Persentase Similaritas</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--            --><?php //foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
+<!--            <tr>-->
+<!--                <td>--><?php //echo $array_no_opl[$key]['no_opl']; ?><!--</td>-->
+<!--                <td>--><?php //echo $array_no_opl[$key]['nama']; ?><!--</td>-->
+<!--                <td>--><?php //echo $similiarity->tokenization($opl_lama_row); ?><!--</td>-->
+<!--                <td>--><?php //echo $persentase['persentase_d'.$d]; ?><!--%</td>-->
+<!--            </tr>-->
+<!--            --><?php //endforeach; ?>
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</div>-->
+<!---->
+<?php //endif; ?>
+<!---->
+<!--</div>-->
 	<?php
 	include "footer.php";
 ?>
