@@ -11,6 +11,7 @@ include"setting_level.php";
 <?php
 include"koneksi.php";
 $no_opl_temp=$_GET['no_opl_temp'];
+$opl_baru = "";
 $query23 = "SELECT * FROM opl
 JOIN agreement_opl on (agreement_opl.id_agreement=opl.id_agreement)
 where opl.no_opl_temp='$no_opl_temp'";
@@ -147,6 +148,7 @@ echo"<tr>
 }
 
 while ($row4=mysql_fetch_array($result4)) {
+    $opl_baru .= "|".$row4['keterangan'];
 echo"<tr>
 	<td><font face='calibri'></font></td>
 	<td>&nbsp;&nbsp;</td>
@@ -196,6 +198,7 @@ echo"</table>
 
     }
 
+    $find_similarity = FALSE;
     include "Classes/Similiatiry.php";
     $similiarity = new Similiatiry($opl_baru, $opl_lama);
     $similiarity->run();
@@ -212,7 +215,12 @@ echo"</table>
         </tr>
         </thead>
         <tbody>
-        <?php foreach($opl_lama as $key => $opl_lama_row): $d = $key+1; ?>
+        <?php
+            foreach($opl_lama as $key => $opl_lama_row):
+                $d = $key+1;
+                if($persentase['persentase_d'.$d] > 51)
+                    $find_similarity = TRUE;
+        ?>
             <tr>
                 <td><?php echo $array_no_opl[$key]['no_opl']; ?></td>
                 <td><?php echo $array_no_opl[$key]['nama']; ?></td>
@@ -221,6 +229,21 @@ echo"</table>
             </tr>
         <?php endforeach; ?>
         </tbody>
+        <tfoot>
+        <tr>
+            <th colspan="4" style="text-align: center; font-size: 15px; margin: 15px">
+                <?php
+                    $message_similarity = "Layak di Approve";
+                    if($find_similarity == TRUE)
+                        $message_similarity = "Tidak Layak di Approve";
+
+                    echo $message_similarity;
+
+                ?>
+
+            </th>
+        </tr>
+        </tfoot>
     </table>
 </div>
 <?php endif; ?>
