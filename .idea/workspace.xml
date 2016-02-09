@@ -44,18 +44,15 @@
                 <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-                <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+                <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
                 <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
                 <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-                <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
                 <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-                <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-                <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -84,9 +81,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -114,6 +111,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,7 +132,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +165,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
+    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -176,7 +173,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33595595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34146342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -184,11 +181,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -206,9 +203,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2895358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -248,18 +245,15 @@
             <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
             <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
             <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -289,18 +283,15 @@
             <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
             <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
             <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -330,18 +321,15 @@
             <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
             <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
             <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -371,18 +359,15 @@
             <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
             <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
             <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -646,18 +631,15 @@
             <marker date="1454475006488" expanded="true" signature="4024:4161" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4221:4357" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4416:4552" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4654:4671" placeholder="..." />
+            <marker date="1454475006488" expanded="true" signature="4654:4918" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="4722:4912" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5199:5337" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="5488:5529" placeholder="SELECT * FRO..user..." />
             <marker date="1454475006488" expanded="true" signature="5843:5895" placeholder="SELECT * FRO..detail_opl..." />
             <marker date="1454475006488" expanded="true" signature="6300:6643" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="6316:6495" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6511:6643" placeholder="..." />
             <marker date="1454475006488" expanded="true" signature="6740:6792" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7112:7534" placeholder="..." />
-            <marker date="1454475006488" expanded="true" signature="7212:7503" placeholder="..." />
           </folding>
         </state>
       </provider>
